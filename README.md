@@ -48,7 +48,7 @@ python -m venv zenml-env
 source zenml-env/bin/activate   # WSL2 / Linux
 pip install -r requirements.txt
 cp .env.example .env            # add your ANTHROPIC_API_KEY
-zenml init                      # first time only
+zenml login --local                      # first time only
 ```
 
 ## Run
